@@ -53,7 +53,7 @@ class CustomDesktopContainer extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    'java, c++, c#',
+                    'Networking , DataBase',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 16,

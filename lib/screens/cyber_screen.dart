@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:programming_app/widgets/custom_hacking.dart';
+import 'package:programming_app/widgets/custom_testing.dart';
 
 class CyberScreen extends StatelessWidget {
   const CyberScreen({super.key});
-
 
   static const String routeName = '/cyber';
 
@@ -50,7 +51,8 @@ class CyberScreen extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            
+            CustomHacking(),
+            CustomTesting(),
           ]),
         ),
       ),

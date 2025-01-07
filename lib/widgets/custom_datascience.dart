@@ -1,16 +1,13 @@
-// ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
-import 'package:programming_app/screens/web_screen.dart';
 
-class CustomWebContainer extends StatelessWidget {
-  const CustomWebContainer({super.key});
+class CustomDatascience extends StatelessWidget {
+  const CustomDatascience({super.key});
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.pushNamed(context, WebScreen.routeName);
+        // Navigator.pushNamed(context, WebScreen.routeName);
       },
       child: Padding(
         padding: const EdgeInsets.all(10.0),
@@ -36,7 +33,7 @@ class CustomWebContainer extends StatelessWidget {
                 child: SizedBox(
                   height: MediaQuery.of(context).size.height * 0.13,
                   child: Image.asset(
-                    'assets/images/web.png',
+                    'assets/images/datascience.png',
                   ),
                 ),
               ),
@@ -47,7 +44,7 @@ class CustomWebContainer extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'Web Development',
+                    'Data Science',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 25,
@@ -55,7 +52,7 @@ class CustomWebContainer extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    'Frontend , Backend',
+                    'Analysis , Planning',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 16,

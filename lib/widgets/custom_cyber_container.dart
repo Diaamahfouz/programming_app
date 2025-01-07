@@ -53,7 +53,7 @@ class CustomCyberContainer extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    'hacking , testing',
+                    'Hacking , Testing',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 16,

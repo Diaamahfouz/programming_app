@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:programming_app/widgets/custom_datascience.dart';
+import 'package:programming_app/widgets/custom_robotics.dart';
 
 class AiScreen extends StatelessWidget {
   const AiScreen({super.key});
-
 
   static const String routeName = '/Ai';
 
@@ -50,7 +51,8 @@ class AiScreen extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            
+            CustomDatascience(),
+            CustomRobotics(),
           ]),
         ),
       ),

@@ -53,7 +53,7 @@ class CustomMobileContainer extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    'native , Cross-Platform',
+                    'Native , Cross-Platform',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 16,

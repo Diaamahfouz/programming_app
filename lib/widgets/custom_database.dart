@@ -44,7 +44,7 @@ class CustomDatabase extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'DataBAse',
+                    'DataBase',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 25,
