@@ -1,31 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:programming_app/widgets/Custom_web_container.dart';
-import 'package:programming_app/widgets/custom_cyber_container.dart';
-import 'package:programming_app/widgets/custom_desktop_container.dart';
-import 'package:programming_app/widgets/custom_mobile_container.dart';
-import 'package:programming_app/widgets/custom_ai_container.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class CyberScreen extends StatelessWidget {
+  const CyberScreen({super.key});
 
-  static const String routeName = '/home';
+
+  static const String routeName = '/cyber';
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blueGrey,
       appBar: AppBar(
         elevation: 0,
-        automaticallyImplyLeading: false,
         actions: [
           Padding(
             padding: const EdgeInsets.all(0.0),
-            child: Image.asset('assets/images/logo.png'),
+            child: Image.asset('assets/images/cybersecurity.png'),
           ), // Replace with your logo asset ),
         ],
         backgroundColor: Colors.black,
         title: const Text(
-          'Learn Programming App',
+          'Cyber Security',
           style: TextStyle(
             color: Colors.white,
             fontSize: 26,
@@ -48,11 +42,15 @@ class HomeScreen extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
           child: ListView(children: const [
-            CustomWebContainer(),
-            CustomMobileContainer(),
-            CustomDesktopContainer(),
-            CustomAiContainer(),
-            CustomCyberContainer(),
+            Text(
+              'Choose The Cyber Security Branch :',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 23,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            
           ]),
         ),
       ),

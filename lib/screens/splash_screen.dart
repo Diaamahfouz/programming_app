@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:programming_app/home_screen.dart';
+import 'package:programming_app/screens/home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   static const String routeName = '/splash';
@@ -16,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen>
   void initState() {
     super.initState();
     _controller = AnimationController(
-      duration: const Duration(seconds: 2),
+      duration: const Duration(milliseconds: 900),
       vsync: this,
     )..addListener(() {
         setState(() {});
@@ -52,7 +52,7 @@ class _SplashScreenState extends State<SplashScreen>
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage(
-                      'assets/images/logo.png',
+                      'assets/images/icon.png',
                     ),
                   ),
                 ),

@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:programming_app/screens/ai_screen.dart';
 
-class CustomAiContainer extends StatelessWidget {
-  const CustomAiContainer({super.key});
+class CustomCross extends StatelessWidget {
+  const CustomCross({super.key});
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.pushNamed(context, AiScreen.routeName);
+        // Navigator.pushNamed(context, WebScreen.routeName);
       },
       child: Padding(
         padding: const EdgeInsets.all(10.0),
@@ -32,9 +31,9 @@ class CustomAiContainer extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.15,
+                  height: MediaQuery.of(context).size.height * 0.13,
                   child: Image.asset(
-                    'assets/images/ai.png',
+                    'assets/images/cross.png',
                   ),
                 ),
               ),
@@ -45,7 +44,7 @@ class CustomAiContainer extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'Ai Development',
+                    'Cross-Platform',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 25,
@@ -53,7 +52,7 @@ class CustomAiContainer extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    'Robotics , Data Science',
+                    'dart , flutter ',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 16,
