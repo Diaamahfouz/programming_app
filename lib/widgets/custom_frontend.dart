@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:programming_app/sub_screens/frontend_screen.dart';
 
 class CustomFrontend extends StatelessWidget {
   const CustomFrontend({super.key});
@@ -7,7 +8,7 @@ class CustomFrontend extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        // Navigator.pushNamed(context, WebScreen.routeName);
+         Navigator.pushNamed(context, FrontendScreen.routeName);
       },
       child: Padding(
         padding: const EdgeInsets.all(10.0),

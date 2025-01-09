@@ -6,6 +6,8 @@ import 'package:programming_app/screens/home_screen.dart';
 import 'package:programming_app/screens/mobile_screen.dart';
 import 'package:programming_app/screens/splash_screen.dart';
 import 'package:programming_app/screens/web_screen.dart';
+import 'package:programming_app/sub_screens/backend_screen.dart';
+import 'package:programming_app/sub_screens/frontend_screen.dart';
 
 void main() {
   runApp(const ProgrammingApp());
@@ -25,7 +27,8 @@ class ProgrammingApp extends StatelessWidget {
         DesktopScreen.routeName: (context) => const DesktopScreen(),
         AiScreen.routeName: (context) => const AiScreen(),
         CyberScreen.routeName: (context) => const CyberScreen(),
-        
+        FrontendScreen.routeName: (context) => const FrontendScreen(),
+        BackendScreen.routeName: (context) => const BackendScreen(),
       },
       initialRoute: SplashScreen.routeName,
       debugShowCheckedModeBanner: false,
