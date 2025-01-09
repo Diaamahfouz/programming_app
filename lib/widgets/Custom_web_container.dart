@@ -34,7 +34,7 @@ class CustomWebContainer extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.14,
+                  height: MediaQuery.of(context).size.height * 0.12,
                   child: Image.asset(
                     'assets/images/web.png',
                   ),
@@ -50,7 +50,7 @@ class CustomWebContainer extends StatelessWidget {
                     'Web Development',
                     style: TextStyle(
                       color: Colors.black,
-                      fontSize: 25,
+                      fontSize: 23,
                       fontWeight: FontWeight.bold,
                     ),
                   ),

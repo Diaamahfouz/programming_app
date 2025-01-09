@@ -32,7 +32,7 @@ class CustomDesktopContainer extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.12,
+                  height: MediaQuery.of(context).size.height * 0.11,
                   child: Image.asset(
                     'assets/images/desktop.png',
                   ),
@@ -48,7 +48,7 @@ class CustomDesktopContainer extends StatelessWidget {
                     'Desktop Development',
                     style: TextStyle(
                       color: Colors.black,
-                      fontSize: 23,
+                      fontSize: 21,
                       fontWeight: FontWeight.bold,
                     ),
                   ),

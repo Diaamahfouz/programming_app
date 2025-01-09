@@ -32,7 +32,7 @@ class CustomMobileContainer extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.13,
+                  height: MediaQuery.of(context).size.height * 0.11,
                   child: Image.asset(
                     'assets/images/mobile.png',
                   ),
@@ -48,7 +48,7 @@ class CustomMobileContainer extends StatelessWidget {
                     'Mobile Development',
                     style: TextStyle(
                       color: Colors.black,
-                      fontSize: 24,
+                      fontSize: 23,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
