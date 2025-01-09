@@ -20,7 +20,7 @@ class ProgrammingApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        SplashScreen.routeName: (context) => SplashScreen(),
+        SplashScreen.routeName: (context) => const SplashScreen(),
         HomeScreen.routeName: (context) => const HomeScreen(),
         WebScreen.routeName: (context) => const WebScreen(),
         MobileScreen.routeName: (context) => const MobileScreen(),
@@ -32,7 +32,7 @@ class ProgrammingApp extends StatelessWidget {
       },
       initialRoute: SplashScreen.routeName,
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: const HomeScreen(),
       theme: ThemeData.dark(),
     );
   }

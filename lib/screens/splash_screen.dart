@@ -3,7 +3,10 @@ import 'package:programming_app/screens/home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   static const String routeName = '/splash';
+
+  const SplashScreen({super.key});
   @override
+  // ignore: library_private_types_in_public_api
   _SplashScreenState createState() => _SplashScreenState();
 }
 
@@ -26,7 +29,7 @@ class _SplashScreenState extends State<SplashScreen>
 
     _controller.forward().then((_) {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => HomeScreen()));
+          MaterialPageRoute(builder: (context) => const HomeScreen()));
     });
   }
 
@@ -49,7 +52,7 @@ class _SplashScreenState extends State<SplashScreen>
               child: Container(
                 width: 400,
                 height: 500,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage(
                       'assets/images/icon.png',
@@ -61,7 +64,7 @@ class _SplashScreenState extends State<SplashScreen>
           ),
           FadeTransition(
             opacity: _animation,
-            child: Text(
+            child: const Text(
               'Learn Programming App',
               style: TextStyle(
                 color: Colors.blue,
@@ -90,7 +93,7 @@ class _SplashScreenState extends State<SplashScreen>
                   )
                 ],
               ),
-              child: Icon(
+              child: const Icon(
                 Icons.arrow_forward,
                 color: Colors.blue,
                 size: 30,
