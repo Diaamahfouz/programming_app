@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:programming_app/sub_screens/native_mobile.dart';
 
 class CustomNative extends StatelessWidget {
   const CustomNative({super.key});
@@ -7,7 +8,7 @@ class CustomNative extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        // Navigator.pushNamed(context, WebScreen.routeName);
+        Navigator.pushNamed(context, NativeMobile.routeName);
       },
       child: Padding(
         padding: const EdgeInsets.all(10.0),

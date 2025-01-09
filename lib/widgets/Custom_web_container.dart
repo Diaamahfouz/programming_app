@@ -34,14 +34,14 @@ class CustomWebContainer extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.13,
+                  height: MediaQuery.of(context).size.height * 0.14,
                   child: Image.asset(
                     'assets/images/web.png',
                   ),
                 ),
               ),
               SizedBox(
-                width: MediaQuery.of(context).size.width * 0.07,
+                width: MediaQuery.of(context).size.width * 0.01,
               ),
               const Column(
                 mainAxisAlignment: MainAxisAlignment.center,

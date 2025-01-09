@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:programming_app/sub_screens/network_screen.dart';
 
 class CustomNetwork extends StatelessWidget {
   const CustomNetwork({super.key});
@@ -7,7 +8,7 @@ class CustomNetwork extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        // Navigator.pushNamed(context, WebScreen.routeName);
+         Navigator.pushNamed(context, NetworkScreen.routeName);
       },
       child: Padding(
         padding: const EdgeInsets.all(10.0),

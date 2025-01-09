@@ -39,7 +39,7 @@ class CustomMobileContainer extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                width: MediaQuery.of(context).size.width * 0.06,
+                width: MediaQuery.of(context).size.width * 0.01,
               ),
               const Column(
                 mainAxisAlignment: MainAxisAlignment.center,

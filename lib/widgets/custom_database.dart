@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:programming_app/sub_screens/sql.dart';
 
 class CustomDatabase extends StatelessWidget {
   const CustomDatabase({super.key});
@@ -7,7 +8,7 @@ class CustomDatabase extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        // Navigator.pushNamed(context, WebScreen.routeName);
+         Navigator.pushNamed(context, Sql.routeName);
       },
       child: Padding(
         padding: const EdgeInsets.all(10.0),

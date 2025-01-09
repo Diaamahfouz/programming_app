@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:programming_app/sub_screens/cross_platform.dart';
 
 class CustomCross extends StatelessWidget {
   const CustomCross({super.key});
@@ -7,7 +8,7 @@ class CustomCross extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        // Navigator.pushNamed(context, WebScreen.routeName);
+        Navigator.pushNamed(context, CrossPlatform.routeName);
       },
       child: Padding(
         padding: const EdgeInsets.all(10.0),
